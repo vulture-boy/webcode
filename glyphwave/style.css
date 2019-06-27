@@ -1,0 +1,32 @@
+body{
+    color: #252525;
+    font-size: 14px;
+    font-family: 'Pontano Sans', sans-serif;
+    background-color: #fbfbfb;
+}
+
+#menu {
+    position: fixed;
+}
+
+#details {
+    text-align: center;
+}
+
+@media screen and (orientation:portrait) {
+    #menu {
+        top:5%;
+        left:10%;
+        }
+    }
+@media screen and (orientation:landscape) {
+    #menu {
+        top:10%;
+        left:5%;
+        }
+    }
+
+#intro { 
+    color: blue;
+    font-size:1.5rem; 
+}
