@@ -1,0 +1,57 @@
+html {
+	font-family: Georgia, sans-serif;
+	background-image: url(images/repeat.png);
+	font-weight: normal;
+	color: black;
+}
+
+header {
+	
+}
+
+/* Section Tags */
+body {
+	background-color: rgba(0,0,0,0);
+	padding: 60px;
+	font-size: 3vw;
+	color:white;
+}
+
+/* Heading Tags */
+h1 {
+	/* vw = viewport width; 1vw = 1% */
+	font-size: 10vw; 
+	font-weight: 400;
+	letter-spacing: 24px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 5vw;
+	text-align: center;
+	color: lightgrey;
+}
+
+/* Anchor */
+a {
+	color: rgb(122,33,33);
+}
+a:hover {
+	color: rgb(144,55,55);
+}
+
+/* class Tags */
+.statement {
+	color: pink;
+}
+.sales {
+	color: lime;
+	text-transform: uppercase;
+}
+
+/* id Tags */
+#intro-statement {
+	border-top: 3px dotted #cccccc;
+	margin-top: 5%;
+	padding-top: 2%; 
+}
