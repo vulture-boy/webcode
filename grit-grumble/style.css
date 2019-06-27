@@ -1,0 +1,9 @@
+body {
+    background-color: black; 
+    text-align: center;
+}
+
+#description {
+    color: white;
+    text-align: left;
+}
